@@ -39,7 +39,7 @@ Our best configuration (SP=30s, LB=64, U=20) significantly outperforms state-of-
 
 
 <figure>
-<img src="docs/figures/eta_results.png" alt="Global MAE and RMSE">
+<img src="docs/figures/eta_results.png" width="700px" alt="Global MAE and RMSE">
 <figcaption>Comparison of results between our LSTM-based models and other techniques from the state of the art. Units in seconds.</figcaption>
 </figure>
 
@@ -49,24 +49,24 @@ The model provides accurate predictions both near the airport and at early stage
 
 **At-time metrics**
 <figure>
-<img src="docs/figures/at_time_metrics.png" alt="At-time MAE">
+<img src="docs/figures/at_time_metrics.png" width="600px" alt="At-time MAE">
 <figcaption>MAE values at different times before arrival at the airport. Units in seconds.</figcaption>
 </figure>
 
 <figure>
-<img src="docs/figures/at_time_metrics_2.png" alt="At-time RMSE">
+<img src="docs/figures/at_time_metrics_2.png" width="600px" alt="At-time RMSE">
 <figcaption>RMSE values at different times before arrival at the airport. Units in squared seconds.</figcaption>
 </figure>
 
 **At-distance metrics**  
 
 <figure>
-<img src="docs/figures/at_distance_metrics.png" alt="At-distance MAE">
+<img src="docs/figures/at_distance_metrics.png" width="600px" alt="At-distance MAE">
 <figcaption>MAE values at different distances to the airport. Units in seconds.</figcaption>
 </figure>
 
 <figure>
-<img src="docs/figures/at_distance_metrics_2.png" alt="At-distance RMSE">
+<img src="docs/figures/at_distance_metrics_2.png" width="600px" alt="At-distance RMSE">
 <figcaption>RMSE values at different distances to the airport. Units in squared seconds.</figcaption>
 </figure>
 
